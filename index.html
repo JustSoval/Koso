@@ -16,9 +16,8 @@ layout: default
         <div style="padding-left: 15px;padding-right: 15px;margin-top: 50px;">
             <div class="container border rounded shadow" style="padding-top: 30px;padding-bottom: 30px;">
                 <div class="row" style="padding-left: 15px;padding-right: 15px;margin-left: 2px;margin-right: 2px;">
-                    <div class="col-md-6"><span style="color: rgb(105, 80, 213);">Text</span>
-                        <h4 style="color: #1f2021;">{{post.title}}</h4>
-                        <p style="color: #222222;">{{post.content}}</p>
+                    <div class="col-md-6"><span style="color: rgb(105, 80, 213);">{{post.tags [0]}}</span><p>&nbsp;</p>
+                        <h4><a style="color: #1f2021;" href="{{post.url}}">{{post.title}}</a></h4>
                     </div>
                     <div class="col-md-6"><img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}" class="border rounded" style="height: auto;width: 100%;"></div>
                 </div>
