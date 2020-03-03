@@ -2,29 +2,47 @@
 layout: default
 ---
 
-<div class="col" style="background-color: #f5f5f5;">
+
+<!-- <div class="col" style="background-color: #f5f5f5;"> -->
+
+<div class="col grey-column">
     <div class="container">
-        <div class="jumbotron" style="background-color: rgba(255,255,255,0);">
-            <h1 style="color: #1f2021;">Nexus</h1>
-            <p style="color: #222222;">This is a place for me to experiment with development, and record information I find in my design and development journey.</p><a class="btn btn-primary" href="#" type="button" style="margin-right: 20px;">About</a><a class="btn btn-primary" href="contact.html"
-                type="button" style="background-color: rgba(254,253,255,0);color: #1f2021;">Contact</a></div>
+        <div class="jumbotron" style="background-color: rgba(0, 0, 0, 0);">
+            <h1>Nexus</h1>
+            <p>This is a place for me to experiment with development, and record information I find in my design and development journey.</p><a class="btn btn-primary" href="#" type="button" style="margin-right: 20px;">About</a><a class="btn btn-outline-primary" href="contact.html"
+                type="button">Contact</a></div>
     </div>
+</div>  
 </div>
 
 <ul>
-    {% for post in site.posts %}
-        <div style="padding-left: 15px;padding-right: 15px;margin-top: 50px;">
-            <div class="container border rounded shadow" style="padding-top: 30px;padding-bottom: 30px;">
+    {% for post in site.posts %}  
+        <div style="margin-top: 50px;">
+            <div class="container rounded shadow post-card" style="padding-top: 30px;padding-bottom: 30px;">
                 <div class="row" style="padding-left: 15px;padding-right: 15px;margin-left: 2px;margin-right: 2px;">
-                    <div class="col-md-6"><span style="color: rgb(105, 80, 213);">{{post.tags [0]}}</span><p>&nbsp;</p>
-                        <h4><a style="color: #1f2021;" href="{{post.url}}">{{post.title}}</a></h4>
+                    <div class="col-sm"><span style="color: rgb(105, 80, 213);">{{post.tags [0]}}</span><p>&nbsp;</p>
+                        <h4><a class="card-title" href="{{post.url}}">{{post.title}}</a></h4>
                     </div>
-                    <div class="col-md-6"><img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}" class="border rounded" style="height: auto;width: 100%;"></div>
-                </div>
+                    <div class="col-md"><img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}" class="rounded" style="height: auto;width: 100%;"></div>
+
             </div>   
         </div>
+
     {% endfor %}
-  </ul>
+</ul>
+
+
+
+<!-- <div style="padding-left: 15px;padding-right: 15px;margin-top: 50px;">
+    <div class="container border rounded shadow" style="padding-top: 30px;padding-bottom: 30px;">
+        <div class="row" style="padding-left: 15px;padding-right: 15px;margin-left: 2px;margin-right: 2px;">
+            <div class="col-md-6"><span style="color: rgb(105, 80, 213);">Text</span>
+                <h4 style="color: #1f2021;">Title</h4>
+            </div>
+        </div>
+    </div>
+</div> -->
+
 
 
 <!-- 
