@@ -63,3 +63,7 @@
 
 [data-theme="dark"] .post-card {
   background-color: red; }
+
+  [data-theme="dark"] .poqwer {
+    background-color: #252525;
+  }
