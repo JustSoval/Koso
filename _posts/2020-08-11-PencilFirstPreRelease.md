@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Pencil first pre-release"
-image: /img/pencil-republic.png
+image: /img/pencil-republic.PNG
 tags: ["Release", "software"]
 ---
 
