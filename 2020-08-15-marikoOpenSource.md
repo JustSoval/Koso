@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Mariko source code release"
-image: /img/mariko-website.png
+image: /img/mariko-website.PNG
 tags: ["Release", "software"]
 ---
 
 # Mariko source code release
 <br>
-<img src="/img/mariko-website.png" alt="Cover art" style="width:100%;"/>
+<img src="/img/mariko-website.PNG" alt="Cover art" style="width:100%;"/>
 <br>
 ##### First full release, v1.0.0
 <br>

@@ -1,0 +1,10 @@
+I"s<h1 id="mariko-source-code-release">Mariko source code release</h1>
+<p><br />
+<img src="/img/mariko-website.PNG" alt="Cover art" style="width:100%;" />
+<br /></p>
+<h5 id="first-full-release-v100">First full release, v1.0.0</h5>
+<p><br />
+Mariko is a basic, general purpose, admin-focused discord bot. It has been a side-project of mine in a private repository since the start of 2021, but I am excited to announce, it is now stable, and open-source! Mariko is built for Heroku, but could be easily adjusted to work with any other hosting system.</p>
+
+<p><a href="https://github.com/JustSoval/Mariko">Mariko source code</a></p>
+:ET
